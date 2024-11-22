@@ -1,0 +1,20 @@
+﻿<Window x:Class="IndumentariaIntimaWPF.Formularios.Principal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndumentariaIntimaWPF.Formularios"
+        mc:Ignorable="d"
+        Title="Principal" Height="374" Width="560"  WindowStartupLocation="CenterScreen" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+    <Grid Margin="0,0,10,5">
+        <Label Content="Jose Romano" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="Principal" HorizontalAlignment="Center" Margin="0,55,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Arial Black"/>
+        <Button Content="Productos" HorizontalAlignment="Left" Margin="44,137,0,0" VerticalAlignment="Top" FontFamily="Harlow Solid Italic" FontSize="26" Height="53" Width="118" Click="BtnArticulos_Click"/>
+        <Button Content="Ventas" HorizontalAlignment="Center" Margin="0,137,0,0" VerticalAlignment="Top" FontFamily="Harlow Solid Italic" FontSize="26" Width="120" Height="53" Click="BtnVender_Click"/>
+        <Button Content="Clientes" HorizontalAlignment="Left" Margin="397,137,0,0" VerticalAlignment="Top" FontSize="26" FontFamily="Harlow Solid Italic" Height="53" Width="118" Click="BtnClientes_Click"/>
+        <Button Content="Salir" HorizontalAlignment="Center" Margin="0,228,0,0" VerticalAlignment="Top" FontFamily="Harlow Solid Italic" FontSize="26" Height="50" Width="118" Click="BtnSalir_Click"/>
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0">
+
+        </Menu>
+    </Grid>
+</Window>

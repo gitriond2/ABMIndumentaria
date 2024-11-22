@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaWPF\\IndumentariaIntimaWPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61F1B7E6-CBD5-4829-A345-C571EBF79E9A}|IndumentariaIntimaWPF.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\tiendaindumentariawpf\\indumentariaintimawpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61F1B7E6-CBD5-4829-A345-C571EBF79E9A}|IndumentariaIntimaWPF.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaWPF\\IndumentariaIntimaWPF\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\TiendaIndumentariaWPF\\IndumentariaIntimaWPF\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-19T18:24:25.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

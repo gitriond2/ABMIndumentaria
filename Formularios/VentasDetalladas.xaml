@@ -1,0 +1,15 @@
+﻿<Window x:Class="IndumentariaIntimaWPF.Formularios.VentasDetalladas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndumentariaIntimaWPF.Formularios"
+        mc:Ignorable="d"
+        Title="VentasDetalladas" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TBXFiltro" Height="30" VerticalAlignment="Top" Margin="237,361,337,0" TextChanged="TBXFiltro_TextChanged"/>
+        <Button Content="Volver" Click="BtnVolver_Click" Height="30" VerticalAlignment="Top" Margin="651,363,85,0"/>
+        <DataGrid x:Name="VentasitemsDataGridView" AutoGenerateColumns="True" Height="300" Width="760" Margin="20,25,20,109"/>
+        <Label Content="Filtro Por IDVenta :" HorizontalAlignment="Left" Margin="63,363,0,0" VerticalAlignment="Top" Width="123"/>
+    </Grid>
+</Window>

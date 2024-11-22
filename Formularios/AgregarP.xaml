@@ -1,0 +1,27 @@
+﻿<Window x:Class="IndumentariaIntimaWPF.Formularios.AgregarP"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndumentariaIntimaWPF.Formularios"
+        mc:Ignorable="d"
+        Title="Agregar Producto" Height="400" Width="400">
+    <Grid>
+        <Label Content="ID Producto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10"/>
+        <Label x:Name="ProductoIDLabel" Content="ID Producto" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,10,0,0" Width="200"/>
+
+        <Label Content="Nombre" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
+        <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,50,0,0" Width="200" PreviewKeyDown="NombreTextBox_PreviewKeyDown"/>
+
+        <Label Content="Marca" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,90,0,0"/>
+        <TextBox x:Name="MarcaTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,90,0,0" Width="200" PreviewKeyDown="MarcaTextBox_PreviewKeyDown"/>
+
+        <Label Content="Importe" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,130,0,0"/>
+        <TextBox x:Name="ImporteTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,130,0,0" Width="200" PreviewKeyDown="ImporteTextBox_PreviewKeyDown"/>
+
+        <Button Content="Guardar Producto" Click="BtnGuardar_Click" Width="200" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,239,0,0"/>
+        <Button Content="Cerrar" Click="BtnVolver_Click" Width="200" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,279,0,0"/>
+        <TextBox x:Name="DescripcionTextBox" HorizontalAlignment="Left" Margin="120,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <Label Content="Descripción" HorizontalAlignment="Left" Margin="12,170,0,0" VerticalAlignment="Top" Width="71"/>
+    </Grid>
+</Window>

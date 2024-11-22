@@ -1,0 +1,19 @@
+﻿<Window x:Class="IndumentariaIntimaWPF.Formularios.Clientes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IndumentariaIntimaWPF.Formularios"
+        mc:Ignorable="d"
+        Title="Clientes" Height="492" Width="959" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid Margin="10,20,10,10" Height="446">
+        <TextBox x:Name="TbxBusquedaClientes" Height="30" VerticalAlignment="Top" Margin="263,368,421,0" />
+        <Button Content="Buscar Clientes" Click="BtnBuscarClientes_Click" Height="30" VerticalAlignment="Top" Margin="573,381,260,0"/>
+        <Button Content="Agregar Cliente" Click="BtnAgregar_Click" Height="30" VerticalAlignment="Top" Margin="734,210,101,0"/>
+        <Button x:Name="BtnModificar" Content="Modificar" Height="30" VerticalAlignment="Top" Margin="734,141,101,0" Click="BtnModificar_Click"/>
+        <Button Content="Eliminar Cliente" Click="BtnEliminar_Click" Height="30" VerticalAlignment="Top" Margin="734,73,101,0"/>
+        <Button Content="Volver" Click="BtnVolver_Click" Height="30" VerticalAlignment="Top" Margin="734,292,101,0"/>
+        <DataGrid x:Name="ClientesDataGridView" Height="300" Margin="43,37,287,109"  />
+        <Label Content="Busqueda Por Cliente" Margin="60,370,725,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
